@@ -125,7 +125,7 @@ public class Setup extends AppCompatActivity
 		}
 		else
 		{
-			Toast.makeText(Setup.this,"Enter all fields",Toast.LENGTH_LONG).show();
+			Toast.makeText(Setup.this,"Enter both display pic and name",Toast.LENGTH_LONG).show();
 		}
 	}
 
