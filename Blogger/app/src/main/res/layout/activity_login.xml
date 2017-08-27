@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hi.blogger.Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:id="@+id/useremail"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_box"
+            android:padding="15dp"
+            android:textColor="@color/greytext"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_box"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:id="@+id/userpass"
+            android:textColor="@color/greytext"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:padding="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:id="@+id/login"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/googlesignin">
+
+        </com.google.android.gms.common.SignInButton>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:padding="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:id="@+id/registeruser"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

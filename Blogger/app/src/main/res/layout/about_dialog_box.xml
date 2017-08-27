@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#00ffffff"
+              android:orientation="vertical"
+              android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_frame_normal"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="52dp"
+            android:minWidth="64dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="About the App"
+            android:textColor="#ffffff"/>
+
+
+
+        <TextView
+            android:id="@+id/okButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:minHeight="52dp"
+            android:minWidth="64dp"
+            android:padding="8dp"
+            android:shadowColor="#00ffffff"
+            android:text="Love Blogging? \n   Trouble finding people with common interest? \n
+
+               \n \n  We got it covered. \n         Try Blogger. \n
+
+              \n  A memory friendly app to keep all your blogs and posts organized.
+                Make posts. Read blogs of other friends and other people in
+                one place only.
+                \n A real time app for blogging \n and meeting people with same
+                interest.
+               \n Happy Blogging. "
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+
+
+
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="52dp"
+            android:minWidth="64dp"
+            android:padding="8dp"
+            android:textSize="14dp"
+            android:text="Done"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+</LinearLayout>

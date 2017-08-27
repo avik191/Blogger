@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hi.blogger.SinglePost">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sv">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/postImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/add_btn"/>
+
+        <TextView
+            android:id="@+id/posttitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/greytext"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:id="@+id/postdesc1"
+            android:textColor="#78909c"/>
+
+
+        <EditText
+            android:id="@+id/posttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/greytext"
+            android:textSize="20dp"
+            android:background="@drawable/input_box"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/input_box"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:id="@+id/postdesc"
+            android:textColor="#78909c"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="8dp"
+                android:id="@+id/userdp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:hint="username"
+                android:id="@+id/username"
+                android:textColor="#78909c"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Post"
+            android:textColor="#ffffff"
+            android:visibility="gone"
+            android:layout_marginTop="25dp"
+            android:id="@+id/updatepost"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove Post"
+            android:visibility="gone"
+            android:textColor="#ffffff"
+            android:id="@+id/removepost"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
