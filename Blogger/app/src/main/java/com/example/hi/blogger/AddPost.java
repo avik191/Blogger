@@ -197,7 +197,7 @@ public class AddPost extends AppCompatActivity
 		}
 		else
 		{
-			Toast.makeText(AddPost.this,"Please upload display pic and enter name both..",Toast.LENGTH_LONG).show();
+			Toast.makeText(AddPost.this,"Please enter all fields..",Toast.LENGTH_LONG).show();
 
 		}
 	}
