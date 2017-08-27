@@ -3,7 +3,7 @@
     Any user gets the information about how many people liked their post and how many viewed their post.
     A memory friendly app for meeting people with common interest.</p>
     
-    <p><img src="Snaps/home.png"/></p
+    <p>![Home Activity](https://github.com/avik191/Blogger/blob/master/Snaps/home.png)</p>
 <p> The app uses realtime Firebase Database and storage for maintaining the posts</p>
 
 **FireBase**
